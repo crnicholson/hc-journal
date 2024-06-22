@@ -9,12 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@hackclub/theme": "^0.3.3",
     "next": "14.2.4",
-    "prop-types": "^15.8.1",
     "react": "^18",
-    "react-dom": "^18",
-    "react-scrolllock": "^5.0.1"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",

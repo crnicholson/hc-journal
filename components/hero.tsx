@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <>
-            <div className="h-[100vh] w-full bg-slate-50 flex justify-center items-center">
+            <div className="h-[100vh] w-full bg-slate-50 flex justify-center items-center z-0">
                 <div className="w-fit h-fit">
                     <h1 className="font-bold text-6xl">Hack Club Journal</h1>
                     <p className="pt-5 w-[400px] italic text-2xl">A free scientific journal for all teens.</p>
