@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Hero() {
     return (
         <>
-            <div className="h-[100vh] w-full bg-[#c4c41932] flex justify-end items-start z-0">
+            <div className="h-[100vh] w-full bg-[#F9FAEF] flex justify-end items-start z-0">
                 {/* <div className="w-fit h-fit">
                     <h1 className="font-bold text-6xl">Hack Club Journal</h1>
                     <p className="pt-5 w-[400px] italic text-2xl">A free scientific journal for all teens.</p>
@@ -18,14 +18,16 @@ export default function Hero() {
                         <p>Insert RSS here.</p>
                     </div>
                 </div> */}
-                <Image 
-                    src="/outernet.jpg"
-                    alt="Hero image"
-                    height={300}
-                    width={300}
-                    className="w-full h-[300px] blur-sm"
-                />
-                <div></div>
+                <div className="relative h-[500px] w-full fade-to-transparent">
+                    <Image
+                        src="/outernet.jpg"
+                        alt="Hero image"
+                        layout="fill"
+                        objectFit="cover"
+                        className="w-full h-[500px]"
+                    />
+                    <div className="h-[500px] w-full backdrop-blur-sm bg-[#f9faef52]"></div>
+                </div>
             </div>
         </>
     );
