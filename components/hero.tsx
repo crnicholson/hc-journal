@@ -1,8 +1,10 @@
+import Image from 'next/image';
+
 export default function Hero() {
     return (
         <>
-            <div className="h-[100vh] w-full bg-slate-50 flex justify-center items-center font-[proxima] z-0">
-                <div className="w-fit h-fit">
+            <div className="h-[100vh] w-full bg-[#c4c41932] flex justify-end items-start z-0">
+                {/* <div className="w-fit h-fit">
                     <h1 className="font-bold text-6xl">Hack Club Journal</h1>
                     <p className="pt-5 w-[400px] italic text-2xl">A free scientific journal for all teens.</p>
                     <div className="mt-5 flex justify-center items-center w-fit h-fit gap-[20px]">
@@ -15,7 +17,15 @@ export default function Hero() {
                     <div className="mt-5">
                         <p>Insert RSS here.</p>
                     </div>
-                </div>
+                </div> */}
+                <Image 
+                    src="/outernet.jpg"
+                    alt="Hero image"
+                    height={300}
+                    width={300}
+                    className="w-full h-[300px] blur-sm"
+                />
+                <div></div>
             </div>
         </>
     );

@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'proxima';
-    src: 'prox.otf';
+    font-family: 'proxima-black';
+    src: url(../public/prox-black.otf);
+}
+
+@font-face {
+    font-family: 'merri-black';
+    src: url(../public/merri-black.ttf);
+}
+
+@font-face {
+    font-family: 'merri';
+    src: url(../public/merri.ttf);
 }
