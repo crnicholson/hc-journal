@@ -16,7 +16,7 @@ export default function Hero() {
                 <div className="p-10 w-fit h-fit">
                     <h1 className="font-bold text-[50px] text-[#F9FAEF]">Hack Club Journal</h1>
                     <div className="flex flex-column justify-center items-center w-fit h-fit italic text-[#F9FAEF] text-[20px]">
-                        <p>A</p><p className="-rotate-6 w-fit bg-[red] p-1 mx-1 rounded-lg">free</p><p> scientific journal for all teens.</p>
+                        <p>A</p><p className="-rotate-6 w-fit bg-red-400 p-1 mx-1 rounded-lg">free</p><p> scientific journal for all teens.</p>
                     </div>
                     <div className="mt-5 flex justify-center items-center w-fit h-fit gap-[20px]">
                         <button className="border-2 bg-[#F9FAEF] hover:bg-black hover:text-[#F9FAEF] border-black px-5 py-2 rounded-md">Get Started</button>
@@ -52,7 +52,6 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-[50vh] bg-[#F9FAEF]"></div>
         </>
     );
 }
