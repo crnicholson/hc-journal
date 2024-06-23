@@ -61,3 +61,35 @@
 .tilt {
     transform: rotate(5deg);
 }
+
+@keyframes wave-flag {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.banner img {
+    max-width: 25%;
+}
+
+.banner:hover img {
+    animation: wave-flag 0.5s linear infinite alternate;
+    transform-origin: top left;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .banner:hover img {
+        transition: 0.1875s cubic-bezier(0.375, 0, 0.675, 1) transform;
+        transform-origin: top left;
+    }
+}
