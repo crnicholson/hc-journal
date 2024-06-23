@@ -5,8 +5,8 @@ export default function Footer() {
             <p className="w-[90%] lg:w-[60%]">
                 Hack Club is a registered 501(c)3 nonprofit organization that supports
                 a network of 20k+ technical high schoolers. We believe you learn best
-                by building when you're learning and shipping technical projects with
-                your friends, so we've started You Ship, We Ship, a program where you
+                by building when you{"'"}re learning and shipping technical projects with
+                your friends, so we{"'"}ve started You Ship, We Ship, a program where you
                 ship a technical project and we ship you something in exchange. In the
                 past few years, we{" "}
                 <a
@@ -20,7 +20,7 @@ export default function Footer() {
                     className="underline decoration-red-400 italic"
                     href="https://github.com/hackclub/the-hacker-zephyr"
                 >
-                    hosted the world's longest hackathon on land
+                    hosted the world{"'"}s longest hackathon on land
                 </a>
                 , and{" "}
                 <a
