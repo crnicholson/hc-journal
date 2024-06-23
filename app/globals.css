@@ -27,3 +27,37 @@
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(249, 250, 239) 100%);
     pointer-events: none;
 }
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    80% {
+        transform: rotate(0deg);
+    }
+
+    85% {
+        transform: rotate(5deg);
+    }
+
+    95% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.wiggle {
+    animation: wiggle 1.5s infinite;
+}
+
+/* .wiggle:hover {
+    animation: none;
+} */
+
+.tilt {
+    transform: rotate(5deg);
+}
